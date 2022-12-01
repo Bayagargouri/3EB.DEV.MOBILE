@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="392dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:srcCompat="@drawable/top_background1"
+        tools:ignore="UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/nomentreprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Ajouter un stage"
+        android:textColor="@color/black"
+        android:textSize="26dp"/>
+    <EditText
+        android:id="@+id/editnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomentreprise"
+        android:hint="Enter the name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/editpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnom"
+        android:hint="Enter the Post"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/editcomptences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editpost"
+        android:hint="Enter the competences"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="465dp"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/insert"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="529dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view"
+        android:layout_marginBottom="-57dp"
+        android:text="logout" />
+
+
+</RelativeLayout>
